@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Static Workspaces
+Comment=Add and remove workspaces with keyboard shortcuts.
+Icon=preferences-system-windows-script-test
+
+X-KDE-PluginInfo-Author=gourish13
+X-KDE-PluginInfo-Email=gourishsadhu@protonmail.com
+X-KDE-PluginInfo-Name=static_workspaces
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Version=
+X-KDE-PluginInfo-License=
+X-KDE-PluginKeyword=static_workspaces
+X-KDE-PluginInfo-EnabledByDefault=true
+
+Type=Service
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/script.js
+
+X-KDE-Library=kwin/effects/configs/kcm_kwin4_genericscripted
+X-KDE-ParentComponents=max2NewVirtualDesktop
+
+X-KDE-PluginInfo-Depends=
+X-KDE-ServiceTypes=KWin/Script,KCModule
